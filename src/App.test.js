@@ -1,8 +1,17 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { cleanup, render } from "@testing-library/react";
+import App from "./App";
+import { percentCalc } from "./helper";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+afterEach(cleanup);
+
+describe("Calculator tests", () => {
+  test('percent calculate', () => {
+    expect(percentCalc(7,100)).toBe(7);
+  });
+ })
+
+it("renders", () => {
+  const { asFragment } = render(<App />);
+  expect(asFragment()).toMatchSnapshot();
 });
+

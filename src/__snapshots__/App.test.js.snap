@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <dl>
+      <dt>
+        SPEND TIME ( 18.40 SECONDS)
+      </dt>
+      <dd
+        class="percentage margin-0 percentage-40"
+      >
+        <span
+          class="text"
+        >
+          Landing Page 7.4s
+        </span>
+      </dd>
+      <dd
+        class="percentage margin-40 percentage-1"
+      >
+        <span
+          class="text"
+        >
+          Configurator 0.2s
+        </span>
+      </dd>
+      <dd
+        class="percentage margin-41 percentage-38"
+      >
+        <span
+          class="text"
+        >
+          Check-out 7s
+        </span>
+      </dd>
+      <dd
+        class="percentage margin-79 percentage-21"
+      >
+        <span
+          class="text"
+        >
+          Deal 3.8s
+        </span>
+      </dd>
+      <dt>
+        <button>
+          Random
+        </button>
+      </dt>
+    </dl>
+  </div>
+</DocumentFragment>
+`;
